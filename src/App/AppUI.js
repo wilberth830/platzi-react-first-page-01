@@ -7,6 +7,7 @@ import { TodosError } from '../TodosError';
 import { EmptyTodos } from '../EmptyTodos';
 import { CreateTodoButton } from '../CreateTodoButton';
 import { TodoContext } from '../TodoContext';
+import { TodoForm } from '../TodoForm';
 import React from 'react';
 import { Modal } from '../Modal';
 
@@ -47,13 +48,16 @@ function AppUI() {
           ))}
       </TodoList>
       
-      <CreateTodoButton />
+      <CreateTodoButton 
+        setOpenModal = {setOpenModal}
+      />
 
-      {openModal && (
-        <Modal>
-          la funcion
-        </Modal>
-      )
+      {
+        openModal && (
+          <Modal>
+            <TodoForm></TodoForm>
+          </Modal>
+        )
       }
     </>
   );

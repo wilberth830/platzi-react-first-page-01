@@ -73,3 +73,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## npm install -g serve
+in powershell mode admin execute => Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+if you view a error about_Execution_Policies
+## serve -s build
