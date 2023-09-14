@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wilberth830/platzi-react-first-page-01/static/css/main.65337ae9.css",
+    "main.js": "/wilberth830/platzi-react-first-page-01/static/js/main.998cd16f.js",
+    "index.html": "/wilberth830/platzi-react-first-page-01/index.html",
+    "static/media/delete.svg": "/wilberth830/platzi-react-first-page-01/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "static/media/check.svg": "/wilberth830/platzi-react-first-page-01/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
+    "main.65337ae9.css.map": "/wilberth830/platzi-react-first-page-01/static/css/main.65337ae9.css.map",
+    "main.998cd16f.js.map": "/wilberth830/platzi-react-first-page-01/static/js/main.998cd16f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65337ae9.css",
+    "static/js/main.998cd16f.js"
+  ]
+}
